@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Redes Sociales - Empresa</title>   
+    <link rel="stylesheet" href="contacto.css">   
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #282c34;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        .social-media {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .social-media h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        .social-media ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social-media ul li {
+            list-style: none;
+        }
+
+        .social-media a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: color 0.3s;
+        }
+
+        .social-media a img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .social-media a:hover {
+            color: #0073e6;
+        }
+
+        .facebook:hover {
+            color: #4267B2;
+        }
+
+        .twitter:hover {
+            color: #1DA1F2;
+        }
+
+        .instagram:hover {
+            color: #C13584;
+        }
+
+        .linkedin:hover {
+            color: #0077B5;
+        }
+
+        footer {
+            background-color: #282c34;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: auto;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Redes Sociales de Nuestra Empresa</h1>
+    </header>
+
+    <section class="social-media">
+        <h2>Síguenos en redes sociales</h2>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/tuempresa" target="_blank" class="facebook" aria-label="Facebook">
+                    <img src="facebook.JPEG" alt="Logo de Facebook"> Facebook
+                </a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/tuempresa" target="_blank" class="twitter" aria-label="Twitter">
+                    <img src="twitter.JPEG" alt="Logo de Twitter"> Twitter
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/tuempresa" target="_blank" class="instagram" aria-label="Instagram">
+                    <img src="instagram.JPEG" alt="Logo de Instagram"> Instagram
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/company/tuempresa" target="_blank" class="linkedin" aria-label="LinkedIn">
+                    <img src="link.png" alt="Logo de LinkedIn"> LinkedIn
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Rincón del Gol y la Hamburguesa. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
